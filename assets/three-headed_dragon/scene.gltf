@@ -1,0 +1,294 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1672,
+      "max": [
+        4.5958800315856934,
+        2.1686398983001709,
+        5.346869945526123
+      ],
+      "min": [
+        -2.843980073928833,
+        -2.1686398983001709,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 20064,
+      "componentType": 5126,
+      "count": 1672,
+      "max": [
+        0.99803119897842407,
+        0.99993133544921875,
+        0.99723958969116211
+      ],
+      "min": [
+        -0.99977129697799683,
+        -0.99993133544921875,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1672,
+      "max": [
+        0.9995957612991333,
+        1,
+        0.99965369701385498,
+        1
+      ],
+      "min": [
+        -0.99929779767990112,
+        -0.99988240003585815,
+        -0.99911129474639893,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1672,
+      "max": [
+        0.99334001541137695,
+        0.99257999658584595
+      ],
+      "min": [
+        0.0085399998351931572,
+        0.0043500000610947609
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3618,
+      "max": [
+        1671
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "VitSh (https://sketchfab.com/VitSh)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/54e0840c392847e1ba98a52352e133cd",
+      "title": "Three-headed dragon"
+    },
+    "generator": "Sketchfab-3.18.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 14472,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13376,
+      "byteOffset": 14472,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 40128,
+      "byteOffset": 27848,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 26752,
+      "byteOffset": 67976,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 94728,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/3Hdragon_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "3Hdragon",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.49079754599999997,
+        "roughnessFactor": 0.54601226989999996
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "3Hdragon_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.84844000000000008,
+        -0.014280000000000003,
+        0.52909000000000006,
+        0,
+        0.045280000000000008,
+        0.99792999999999998,
+        -0.045690000000000015,
+        0,
+        -0.52734999999999999,
+        0.062720000000000026,
+        0.84733000000000003,
+        0,
+        -8.1199699999999986,
+        7.2685399999999998,
+        7.8669699999999994,
+        1
+      ],
+      "name": "Hemi"
+    },
+    {
+      "name": "Hemi"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "3Hdragon"
+    },
+    {
+      "mesh": 0,
+      "name": "3Hdragon_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.79115999999999997,
+        -0.21156000000000003,
+        0.57385000000000008,
+        0,
+        -0.22660000000000002,
+        0.77009000000000005,
+        0.59633000000000003,
+        0,
+        -0.56808000000000003,
+        -0.60183000000000009,
+        0.56133,
+        0,
+        -4.6866300000000001,
+        -2.1593800000000001,
+        6.976230000000001,
+        1
+      ],
+      "name": "Hemi.001"
+    },
+    {
+      "name": "Hemi.001"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
